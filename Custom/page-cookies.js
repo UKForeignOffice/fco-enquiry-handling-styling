@@ -1,0 +1,1 @@
+$(document).ready(function() {    if(window.opener) {        $("#close-page-button").show();    }});          $('#close-page-button').click(function(){    window.close();});
